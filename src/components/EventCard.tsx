@@ -187,7 +187,7 @@ const EventCard: React.FC<EventCardProps> = ({
         {/* First Block */}
         <div>
           <img
-            src={`http://localhost:3000/public/PokemonImages/${pokemonImage}.png`}
+            src={`http://goc4840sk8cc4cws448osgoo.193.46.198.43.sslip.io/public/PokemonImages/${pokemonImage}.png`}
             alt={pokemonName}
             className="w-20 h-20 mx-auto object-contain mb-2"
           />

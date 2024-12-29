@@ -179,7 +179,7 @@ const DashboardPage = () => {
                 >
                   {/* Pokémon Image */}
                   <img
-                    src={`http://localhost:3000/public/PokemonImages/${pokemon.image}.png`}
+                    src={`http://goc4840sk8cc4cws448osgoo.193.46.198.43.sslip.io/public/PokemonImages/${pokemon.image}.png`}
                     alt={pokemon.name}
                     className="w-16 h-16 rounded-full mr-3"
                   />
@@ -204,7 +204,7 @@ const DashboardPage = () => {
             <div>
               <p className='mx-6 text-2xl'>{selectedPokemon.name}</p>
               <img
-                src={`http://localhost:3000/public/PokemonImages/${selectedPokemon.image}.png`}
+                src={`http://goc4840sk8cc4cws448osgoo.193.46.198.43.sslip.io/public/PokemonImages/${selectedPokemon.image}.png`}
                 alt={selectedPokemon.name}
                 className="w-24 h-24 rounded-full my-4 mx-8"
               />

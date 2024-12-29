@@ -86,7 +86,7 @@ const EditPokedexCard: React.FC<EditPokedexCardProps> = ({
         {/* Image */}
         <div className="mb-4 flex flex-col items-center">
           <img
-            src={`http://localhost:3000/public/PokemonImages/${pokemon.image}.png`}
+            src={`http://goc4840sk8cc4cws448osgoo.193.46.198.43.sslip.io/public/PokemonImages/${pokemon.image}.png`}
             alt={pokemon.name}
             className="w-24 h-24 mb-2"
           />

@@ -43,7 +43,7 @@ const PokedexCard: React.FC<PokedexCardProps> = ({
       <h3 className="text-lg font-bold">{pokemon.name}</h3>
       <h3 className="text-md">{pokemon.form}</h3>
       <img
-        src={`http://localhost:3000/public/PokemonImages/${pokemon.image}.png`}
+        src={`http://goc4840sk8cc4cws448osgoo.193.46.198.43.sslip.io/public/PokemonImages/${pokemon.image}.png`}
         alt={pokemon.name}
         className="w-36 h-36 mx-auto mt-2"
       />
